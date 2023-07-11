@@ -1,0 +1,27 @@
+.sec1-heading{
+padding-top: 78px;
+text-align: center;
+}
+
+.Take{
+font-family: Mansalva;
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--blue);
+}
+
+.ideas{
+font-family: Palanquin Dark;
+    font-weight: 700;
+    color: var(--primary);
+    
+}
+
+@media (min-width: 768px){
+    .take{
+        font-size: 30px ;
+    }
+    .ideas{
+        font-size: 50px;
+    }
+}

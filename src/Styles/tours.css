@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Mansalva&family=Palanquin+Dark:wght@500;700&display=swap');
+
+:root {
+  --mansalva: 'Mansalva', cursive;
+  --palanquin: 'Palanquin', sans-serif;
+  --jost: 'Jost', sans-serif;
+  --primary: #0e2911;
+  --secondary: #effcf1;
+  --action: #efab29;
+  --grey: #6e6e6e;
+  --blue: #22cdff;
+
+
+}
+
+
+.tour{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.tours .oga {
+background-color: var(--secondary);
+width: 617px;
+ height: 408px;
+ border-radius: 5px;
+ background-color: #EFFCF1;
+ position: relative;
+ top: -80px;
+
+}
+
+.mkt{
+font-family: var(--palanquin);
+color: var(--primary);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.tours .oga .lorem {
+  font-family: var(--jost);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--grey);
+  text-align: left;
+  width: 481px;
+  height: 137px;
+
+}
+
+.tour img {
+  width: 560px;
+   height: 391px;
+  border-radius: 5px;
+  position: relative;
+  top: 70px;
+  left: -140px;
+  
+
+}
+@media (max-width: 769px){
+  .tour {
+      flex-direction: column;
+      margin: 20px auto;
+      height: auto;
+    }
+        .tours .oga {
+          width: 500px;
+          position: static;
+        }
+                .tour img {
+                  width: 500px;
+                  height: 400px;
+                  object-fit: cover;
+                  position: static;
+                }
+        
+                .tours .oga .lorem {
+                  width: 400px;
+                  height: 137px;
+                }
+                .mkt{
+                  font-size: 40px;
+                  line-height: 45px;
+                }
+}
+
+@media (max-width: 426px){
+  .tour{
+    flex-direction: column;
+    margin: 20px auto;
+  }
+.tours .oga{
+ width: 300px;
+ position: static; 
+}
+.tour img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: static;
+}
+.tours .oga .lorem{
+  width: 300px;
+    height: 137px;
+}
+    .mkt {
+      font-size: 30px;
+      line-height: 35px;
+    }
+}
+
+
+
